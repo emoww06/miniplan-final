@@ -2110,13 +2110,24 @@
             currentDate.setMonth(currentDate.getMonth() - 1);
             renderCalendar();
         }
-
         function nextMonth() {
             currentDate.setMonth(currentDate.getMonth() + 1);
             renderCalendar();
         }
 
-
+        // Service Worker kaydı
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('Service Worker kaydedildi:', registration);
+                    })
+                    .catch(function(error) {
+                        console.log('Service Worker kaydı başarısız:', error);
+                    });
+            });
+        }
     </script>
 </body>
-</html> 
+</html>
+        
