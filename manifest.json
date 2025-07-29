@@ -14,7 +14,7 @@
   "categories": ["productivity", "lifestyle"],
   "icons": [
     {
-      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAABFbMl4AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAABVJREFUeNrtwQENAAAAwqD1T20JT6AAAHwYAAAB0niJ8AAAAABJRU5ErkJggg==",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
