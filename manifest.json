@@ -1,0 +1,12 @@
+{
+  "name": "MiniPlan Premium",
+  "short_name": "MiniPlan",
+  "description": "Günlük hedeflerinizi planlayın, takip edin ve AI destekli motivasyon alın.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["productivity", "lifestyle"]
+}
