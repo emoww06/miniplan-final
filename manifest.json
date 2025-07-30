@@ -9,11 +9,15 @@
   "theme_color": "#2196F3",
   "orientation": "portrait-primary",
   "scope": "/",
+  "lang": "tr",
+  "dir": "ltr",
+  "categories": ["productivity", "lifestyle"],
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "screenshots": [
@@ -26,5 +30,29 @@
   ],
   "launch_handler": {
     "client_mode": "navigate-existing"
-  }
+  },
+  "display_override": ["standalone", "minimal-ui"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope_extensions": [],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b5",
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "text/plain": [".txt"],
+        "application/json": [".json"]
+      }
+    }
+  ],
+  "handle_links": "preferred",
+  "protocol_handlers": [
+    {
+      "protocol": "web+miniplan",
+      "url": "/?action=%s"
+    }
+  ]
 }
