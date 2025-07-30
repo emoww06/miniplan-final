@@ -2,6 +2,7 @@
   "name": "MiniPlan Premium",
   "short_name": "MiniPlan",
   "description": "Günlük hedeflerinizi planlayın, takip edin ve AI destekli motivasyon alın.",
+  "id": "miniplan-final",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#2196F3",
@@ -14,5 +15,16 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI3MjAiIHZpZXdCb3g9IjAgMCAxMjgwIDcyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI3MjAiIGZpbGw9IiMyMTk2RjMiLz4KICA8dGV4dCB4PSI2NDAiIHk9IjM2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TWluaVBsYW48L3RleHQ+Cjwvc3ZnPgo=",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }
